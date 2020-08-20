@@ -607,7 +607,7 @@ class stms_widget_hori extends WP_Widget
 
 /**
  * ------------------------------------
- * Add Social Networks Buttons on Pages & Posts
+ * Add Social Networks Buttons on Posts
  * ------------------------------------
  */
 
