@@ -1,0 +1,101 @@
+/*** Social Networks Style ***/
+.social-sharing-wrp {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+.social-sharing-wrp ul {
+    width: 100%;
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.social-sharing-wrp ul li {
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.social-sharing-wrp ul li a {
+    padding: 7px 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    transition: .3s;
+}
+.social-sharing-wrp ul li a:hover {
+    opacity: .7;
+}
+.social-sharing-wrp ul li a i {
+    position: relative;
+    padding-left: 20px;
+}
+
+.social-sharing-wrp ul li a i:before {
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: -18px;
+    left: 0;
+}
+.social-sharing-wrp ul li .bg_pinterest {
+    background-color: #e60023;
+    border: 1px solid #e60023;
+}
+.social-sharing-wrp ul li .bg_twitter {
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+}
+.social-sharing-wrp ul li .bg_facebook {
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+}
+.social-sharing-wrp ul li .bg_email {
+    background-color: #6bcce9;
+    border: 1px solid #6bcce9;
+}
+.social-sharing-wrp ul li .bg_whatsapp {
+    background-color: #71c169;
+    border: 1px solid #71c169;
+}
+.social-sharing-wrp ul li .bg_linkedin {
+    background-color: #2767b1;
+    border: 1px solid #2767b1;
+}
+.social-sharing-wrp ul li .bg_viber {
+    background-color: #8f5db7;
+    border: 1px solid #8f5db7;
+}
+.social-sharing-wrp ul li .bg_blogger {
+    background-color: #ff5722;
+    border: 1px solid #ff5722;
+}
+.social-sharing-wrp ul li .bg_mix_icon {
+    background-color: #f4812c;
+    border: 1px solid #f4812c;
+}
+.social-sharing-wrp ul li .bg_buffer_icon {
+    background-color: #323b43;
+    border: 1px solid #323b43;
+}
+.social-sharing-wrp ul li .bg_evernote_icon {
+    background-color: #2CBE60;
+    border: 1px solid #2CBE60;
+}
+.social-sharing-wrp ul li .bg_print_icon {
+    background-color: #777;
+    border: 1px solid #777;
+}
+.social-sharing-wrp ul li .bg_tumblr_icon {
+    background-color: #39475d;
+    border: 1px solid #39475d;
+}
+.social-sharing-wrp ul li .bg_default {
+    background-color: #4a4a4a;
+    border: 1px solid #4a4a4a;;
+}
+/*** Admin Panel TinyMCI ***/
+i.mce-i-perec {
+    background-image: url('/wp-content/themes/grandnews-child/img/social-share-icons.jpg');
+}
