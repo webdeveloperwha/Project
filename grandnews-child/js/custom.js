@@ -4,6 +4,9 @@
 
 
 
+
+
+
 (function() {
     tinymce.PluginManager.add('true_mce_button', function( editor, url ) {
         editor.addButton('true_mce_button', {
