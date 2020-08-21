@@ -91,12 +91,43 @@
     background-color: #39475d;
     border: 1px solid #39475d;
 }
+.social-sharing-wrp ul li .bg_more_icon {
+    background-color: #ee464f;
+    border: 1px solid #ee464f;
+}
+.social-sharing-wrp ul li .bg_flipboard_icon {
+    background-color: #bf2626;
+    border: 1px solid #bf2626;
+}
+.social-sharing-wrp ul li .bg_hacker_news_icon {
+    background-color: #d85623;
+    border: 1px solid #d85623;
+}
+.social-sharing-wrp ul li .bg_pocket_icon {
+    background-color: #ef4056;
+    border: 1px solid #ef4056;
+}
+.social-sharing-wrp ul li .bg_reddit_icon {
+    background-color: #f04b23;
+    border: 1px solid #f04b23;
+}
+.social-sharing-wrp ul li .bg_vk_icon {
+    background-color: #4a76a8;
+    border: 1px solid #4a76a8;
+}
+.social-sharing-wrp ul li .bg_xing_icon {
+    background-color: #026466;
+    border: 1px solid #026466;
+}
+.social-sharing-wrp ul li .bg_yummly_icon {
+    background-color: #e26426;
+    border: 1px solid #e26426;
+}
+
 .social-sharing-wrp ul li .bg_default {
     background-color: #4a4a4a;
     border: 1px solid #4a4a4a;;
 }
-
-
 
 
 /*** Admin Panel TinyMCI ***/

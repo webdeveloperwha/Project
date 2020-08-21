@@ -604,6 +604,7 @@ class stms_widget_hori extends WP_Widget
 
 
 
+
 /**
  * ------------------------------------
  * Add Social Networks Buttons on Posts
@@ -638,6 +639,14 @@ add_shortcode('social-sharing', function () {
                    11 => 'swp_evernote_icon',
                    12 => 'swp_print_icon',
                    13 => 'swp_tumblr_icon',
+                   14 => 'swp_more_icon',
+                   15 => 'swp_flipboard_icon',
+                   16 => 'swp_hacker_news_icon',
+                   17 => 'swp_pocket_icon',
+                   18 => 'swp_reddit_icon',
+                   19 => 'swp_vk_icon',
+                   20 => 'swp_xing_icon',
+                   21 => 'swp_yummly_icon',
                 ];
 
                 foreach ( $arr_icons as $key => $val) {
@@ -658,6 +667,14 @@ add_shortcode('social-sharing', function () {
                             case 11: $class_item = 'bg_evernote_icon'; break;
                             case 12: $class_item = 'bg_print_icon'; break;
                             case 13: $class_item = 'bg_tumblr_icon'; break;
+                            case 14: $class_item = 'bg_more_icon'; break;
+                            case 15: $class_item = 'bg_flipboard_icon'; break;
+                            case 16: $class_item = 'bg_hacker_news_icon'; break;
+                            case 17: $class_item = 'bg_pocket_icon'; break;
+                            case 18: $class_item = 'bg_reddit_icon'; break;
+                            case 19: $class_item = 'bg_vk_icon'; break;
+                            case 20: $class_item = 'bg_xing_icon'; break;
+                            case 21: $class_item = 'bg_yummly_icon'; break;
                             default: $class_item = 'bg_default'; break;
                         }
                     }
@@ -705,10 +722,6 @@ function true_register_mce_button( $buttons ) {
 add_action( 'admin_enqueue_scripts', function () {
     wp_enqueue_style('wha-admin-style',   get_stylesheet_directory_uri() . '/css/custom.css');
 });
-
-
-
-
 
 
 
