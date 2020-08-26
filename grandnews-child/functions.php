@@ -651,7 +651,7 @@ add_shortcode('social-sharing', function () {
 
                 foreach ( $arr_icons as $key => $val) {
 
-                    if( $key == get_sub_field('icon_social') ) {
+                    if( $key == get_sub_field('name_social') ) {
                         $class_icon = $val;
                         switch ( $key ) {
                             case 1: $class_item = 'bg_pinterest'; break;
@@ -682,8 +682,10 @@ add_shortcode('social-sharing', function () {
 
                 $html .= '<li>
                              <a class="'.$class_item.'" href="'.get_sub_field('url_social').'" target="_blank">
-                             <i class="sw '. $class_icon .'"></i>
-                             '.get_sub_field('text_social').'
+                               <span class="iconFiller">   
+                                   <i class="sw '. $class_icon .'" style="background-image: url('.get_sub_field('icon_social').')"></i>
+                                   <span class="swp_share">'.get_sub_field('text_social').'</span>
+                               </span>
                              </a>                        
                           </li>';
             endwhile;

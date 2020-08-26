@@ -19,25 +19,42 @@
     margin-bottom: 15px;
 }
 .social-sharing-wrp ul li a {
-    padding: 7px 10px;
+    padding: 7px 10px 7px 30px;
     color: #FFFFFF;
     font-size: 14px;
     transition: .3s;
+    position: relative;
 }
 .social-sharing-wrp ul li a:hover {
     opacity: .7;
 }
+.social-sharing-wrp ul li a .swp_share {
+    /*display: none;*/
+}
+
 .social-sharing-wrp ul li a i {
-    position: relative;
     padding-left: 20px;
+    height: 25px;
+    width: 10px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .social-sharing-wrp ul li a i:before {
+    content: none;
+}
+
+.social-sharing-wrp ul li a i.sw:before {
     color: #fff;
     font-size: 18px;
     position: absolute;
-    top: -18px;
+    top: 0;
     left: 0;
+    width: 20px;
+    height: 20px;
 }
 .social-sharing-wrp ul li .bg_pinterest {
     background-color: #e60023;
